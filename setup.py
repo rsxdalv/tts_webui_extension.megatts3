@@ -16,9 +16,7 @@ setuptools.setup(
     project_urls={},
     scripts=[],
     install_requires=[
-        # Add your dependencies here
-        # "numpy",
-        # "torch",
+        "tts-webui.megatts3>=0.1.1",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
