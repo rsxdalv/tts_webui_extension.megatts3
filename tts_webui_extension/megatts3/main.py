@@ -3,6 +3,9 @@ from .ui import megatts3_ui
 
 
 def extension__tts_generation_webui():
+    from .openai_api_adapter import register
+
+    register()
     megatts3_ui()
 
     return {
